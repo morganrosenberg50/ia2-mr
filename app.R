@@ -13,7 +13,7 @@ workshop_topics <- c('Stress Optimization',
                      'Physical Health & Fitness',
                      'Nutrition & Gut Health')
 
-qwl_df <- read_csv("bei_vita_qwl_assessment.csv") 
+qwl_df <- readr::read_csv("bei_vita_qwl_assessment.csv") 
 names(qwl_df)[5] = "Country"
 
 temp <- qwl_df[,56:62]
