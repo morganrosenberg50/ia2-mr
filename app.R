@@ -3,7 +3,7 @@ library(dashBootstrapComponents)
 library(dashCoreComponents)
 library(ggplot2)
 library(plotly)
-library(tidyverse)
+library(tidyr)
 
 workshop_topics <- c('Stress Optimization',
                      'Mindset Coaching',
