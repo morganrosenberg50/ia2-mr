@@ -31,7 +31,7 @@ app$layout(
       dccGraph(id='plot'),
       dccDropdown(
         id='country-select',
-        options = unique(temp$Country)%>%map(function(con) list(label = con, value = con)), 
+        options = unique(temp$Country)%>% purrr::map(function(con) list(label = con, value = con)), 
         value = 'Japan'
       )
     )
